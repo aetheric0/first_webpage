@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Portfolio</title>
+        <style>
+            body {
+                font-size: large;
+            }
+            a {
+                text-decoration: none;
+                color: rgba(0, 0, 0, 0.8);
+            }
+            a:hover {
+                color: gainsboro;
+            }
+
+            nav {
+                font-size: larger;
+            }
+
+            h1  {
+                margin: 0 auto;
+                margin-top: 70px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            p, #projects ul{
+                text-align: center;
+                max-width: 50%;
+                margin: 5px auto;
+                line-height: 30px;
+            }
+
+            aside {
+                text-align: center;
+                max-width: 50%;
+                margin: 5px auto;
+                line-height: 30px;
+            }
+
+
+            #projects ul {
+                list-style-position: inside;
+                padding-left: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul style="list-style-type: none; display: flex; gap: 20px;">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+        
+        <hr>
+        <section id="home">
+            <div>
+            <h1>Home</h1>
+            <p>Welcome to my portfolio. You can see the current projects I am working on!
+                You can also check out my latest contents on web engineering, hire for work
+                Use our web terminal to tests your codes as well as other cool fun stuff.
+
+                <aside>Hey! Wanna see some cool interactivity that can be done with css?</aside>
+                <p>Anytime you click the links in the nav menu, depending on which you click, it 
+                    automatically takes you the the exact navigation item!
+
+                    <p>Seriously! Try it!</p>
+                </p>
+            </p>
+        </div>
+        </section>
+                
+        <section id="about">
+            <h1>About</h1>
+            <p>Hi, I am Mornark, a tech hobbyist and software engineering intern at PLP.
+                Ever since I touched a computer at age 12, I've always been fascinated about
+                how the computer works. I tend to spend most of my days breaking codes to see
+                how they work haha 😅. Thankfully I haven't done too much harm to innocent
+                binary files.
+                <br><br>
+                I always tell people coding begins with curiosity, as curiosity sparks interest
+                and interest ignites obsession! (yes we programmers are all obsessed otherwise we
+                won't spend hours building and more frustrating hours debugging!).
+            </p>
+        </section>
+        
+        <section id="projects">
+            <h1>Projects</h1>
+            <p>This section describes the list of projects currently being worked on.
+                I am focused on creativity and innovation to build stunning state-of-the-art
+                modern webapps that are fast, efficient, scalable and maintanable.
+            </p>
+               <ul>
+                    <li>Saas</li>
+                    <li>Simple Shell</li>
+                    <li>SSR webapp</li>
+                </ul>
+        </section>
+    </body>
+</html>
